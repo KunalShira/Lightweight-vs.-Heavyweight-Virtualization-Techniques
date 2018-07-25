@@ -1,2 +1,3 @@
 # Lightweight-vs.-Heavyweight-Virtualization-Techniques
-Lightweight vs. Heavyweight Virtualization Techniques
+
+I wanted to know which of two virtualization techniques is fast. For that I used  Docker (a light-weight, containerbased virtualization technique), and the other is QEMU (a user-level full virtualization technique) with GUI. To see the statistics as compared to native environment mode deployed Docker and QEMU with VNC client for graphical user interface. I correctly deployed them, been familiar with the operations, measure the performance using benchmarks, and finally compared the results in a comprehensive report attached in repository named Report - Kunal Shira.

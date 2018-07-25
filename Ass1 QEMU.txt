@@ -1,0 +1,21 @@
+You can install qemu (under Ubuntu) simply by:
+$sudo apt-get install qemu
+You will download the Ubuntu iso image to install your QEMU VM:
+$wget http://mirror.pnl.gov/releases/16.04/ubuntu-16.04.3-server-amd64.iso
+You need to create an image before installing your QEMU VM. For your convenience, we provide the
+commands below. Please refer to the QEMU manual for more details [6].
+$sudo qemu-img create ubuntu.img 10G
+
+
+2.7.1 Quick start for disk image creation
+
+You can create a disk image with the command:
+
+qemu-img create myimage.img mysize
+where myimage.img is the disk image filename and mysize is its size in kilobytes. 
+You can add an M suffix to give the size in megabytes and a G suffix for gigabytes.
+
+
+Installation is complete, so it is time to boot into your new system. Make sure to remove the installation media (CD-ROM, floppies), so that you boot into the new system rather than restarting the installation.
+ nc 104.197.91.140 5901
+    
